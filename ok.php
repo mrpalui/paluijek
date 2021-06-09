@@ -32,7 +32,7 @@ function change(){
         $pilihan = trim(fgets(STDIN));
         if($pilihan == "y" || $pilihan == "Y"){
         echo color("red","===========(Cek VOUCHER)===========");
-        echo "\n".color("blue","!] Cek Voucher);
+        echo "\n".color("blue","!] Cek Voucher");
         echo "\n".color("blue","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
